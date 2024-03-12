@@ -17,3 +17,25 @@ build-backend = "pdm.backend"
 
 [tool.pdm]
 distribution = true
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "scikit-learn>=1.4.1.post1",
+    "polars>=0.20.13",
+    "pandas>=2.2.1",
+    "pyarrow>=15.0.0",
+    "matplotlib>=3.8.3",
+    "plotly>=5.19.0",
+    "notebook>=7.1.1",
+    "holidays>=0.44",
+    "seaborn>=0.13.2",
+    "geopy>=2.4.1",
+    "mlflow>=2.11.1",
+    "shap>=0.44.1",
+    "fastapi>=0.110.0",
+    "uvicorn>=0.27.1",
+    "python-dotenv>=1.0.1",
+    "category-encoders>=2.6.3",
+    "lightgbm>=4.3.0",
+    "eli5>=0.13.0",
+]
